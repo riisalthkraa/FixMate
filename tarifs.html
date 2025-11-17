@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FixMate - Tarifs et formules d'abonnement">
+    <meta name="author" content="VIEY David">
+    <title>Tarifs - FixMate DiagPC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="brand-logo">
+                    <span class="brand-icon">🛡️</span>
+                    <div>
+                        <h1>FixMate DiagPC</h1>
+                        <span class="tagline">Diagnostic PC Intelligent</span>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="fonctions.html">Fonctions</a></li>
+                <li><a href="tarifs.html" class="active">Tarifs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#download" class="btn-primary">Télécharger</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Pricing Hero -->
+    <section class="pricing-hero">
+        <div class="container">
+            <h1 class="hero-title">Choisissez la formule adaptée à vos besoins</h1>
+            <p class="hero-subtitle">Essai gratuit de 14 jours Shield PRO - Sans engagement - Sans carte bancaire</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <div class="billing-toggle">
+                <span class="billing-option">Mensuel</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="billing-toggle">
+                    <span class="toggle-slider"></span>
+                </label>
+                <span class="billing-option">Annuel <span class="save-badge">Économisez 44%</span></span>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- FREE -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>FixMate FREE</h3>
+                        <div class="pricing-badge free">GRATUIT</div>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price">0€</span>
+                        <span class="period">/ toujours</span>
+                    </div>
+                    <p class="pricing-description">Pour découvrir FixMate et diagnostiquer votre PC</p>
+                    <ul class="pricing-features">
+                        <li><span class="check">✅</span> Dashboard - Scan système basique</li>
+                        <li><span class="check">✅</span> Nettoyage fichiers temporaires</li>
+                        <li><span class="check">✅</span> Score de santé global</li>
+                        <li><span class="check">✅</span> Liste des problèmes détectés</li>
+                        <li><span class="check">✅</span> Recommandations basiques (3-5)</li>
+                        <li><span class="check">✅</span> Export JSON uniquement</li>
+                        <li><span class="check">⚠️</span> 1 scan par heure</li>
+                        <li><span class="check">✅</span> Support communautaire</li>
+                    </ul>
+                    <a href="#download" class="btn-pricing btn-free">Télécharger Gratuit</a>
+                </div>
+
+                <!-- PRO -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">POPULAIRE</div>
+                    <div class="pricing-header">
+                        <h3>FixMate PRO</h3>
+                        <div class="pricing-badge pro">PRO</div>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price" id="pro-price-monthly">2,99€</span>
+                        <span class="price hidden" id="pro-price-yearly">19,99€</span>
+                        <span class="period" id="pro-period-monthly">/ mois</span>
+                        <span class="period hidden" id="pro-period-yearly">/ an</span>
+                    </div>
+                    <p class="pricing-description">Pour les utilisateurs exigeants et professionnels</p>
+                    <ul class="pricing-features">
+                        <li><span class="check">✨</span> <strong>Tout de FREE +</strong></li>
+                        <li><span class="check">✅</span> Mode Expert complet</li>
+                        <li><span class="check">✅</span> Scan Approfondi avancé</li>
+                        <li><span class="check">✅</span> Optimiseur One-Click intelligent</li>
+                        <li><span class="check">✅</span> Export avancé (CSV, HTML, PDF)</li>
+                        <li><span class="check">✅</span> Historique scans illimité</li>
+                        <li><span class="check">✅</span> Rafraîchissement automatique</li>
+                        <li><span class="check">✅</span> Analyse IA des problèmes</li>
+                        <li><span class="check">✅</span> Notifications critiques</li>
+                        <li><span class="check">✅</span> Jumeau Numérique (lecture seule)</li>
+                        <li><span class="check">✅</span> Guides AR (3 tutoriels basiques)</li>
+                        <li><span class="check">✅</span> Support prioritaire email</li>
+                    </ul>
+                    <a href="contact.html" class="btn-pricing btn-pro">Essayer PRO gratuitement</a>
+                </div>
+
+                <!-- SHIELD PRO -->
+                <div class="pricing-card premium">
+                    <div class="premium-badge">ULTIME</div>
+                    <div class="pricing-header">
+                        <h3>FixMate Shield PRO</h3>
+                        <div class="pricing-badge shield">SHIELD PRO</div>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price" id="shield-price-monthly">5,99€</span>
+                        <span class="price hidden" id="shield-price-yearly">49,99€</span>
+                        <span class="period" id="shield-period-monthly">/ mois</span>
+                        <span class="period hidden" id="shield-period-yearly">/ an</span>
+                    </div>
+                    <p class="pricing-description">Protection maximale avec prédiction de pannes</p>
+                    <ul class="pricing-features">
+                        <li><span class="check">✨</span> <strong>Tout de PRO +</strong></li>
+                        <li><span class="check">🛡️</span> <strong>Predictive Failure Shield complet</strong></li>
+                        <li><span class="check">🔮</span> Prédiction pannes 7-30 jours à l'avance</li>
+                        <li><span class="check">✅</span> Jumeau Numérique interactif</li>
+                        <li><span class="check">✅</span> Recommandations upgrade intelligentes</li>
+                        <li><span class="check">✅</span> Détection socket obsolète</li>
+                        <li><span class="check">✅</span> Calcul bottleneck CPU/GPU</li>
+                        <li><span class="check">✅</span> Guides AR complets (15+ tutoriels)</li>
+                        <li><span class="check">✅</span> Tutoriels avancés (OC, watercooling)</li>
+                        <li><span class="check">💾</span> <strong>Backup/Restore automatique</strong></li>
+                        <li><span class="check">✅</span> Monitoring 24/7 en arrière-plan</li>
+                        <li><span class="check">✅</span> Alertes temps réel (email + Windows)</li>
+                        <li><span class="check">✅</span> Multi-PC (jusqu'à 3 ordinateurs)</li>
+                        <li><span class="check">🎁</span> <strong>Support VIP (chat en direct)</strong></li>
+                    </ul>
+                    <a href="contact.html" class="btn-pricing btn-shield">Essai gratuit 14 jours</a>
+                </div>
+            </div>
+
+            <div class="pricing-footer">
+                <p class="pricing-note">✨ Tous les abonnements incluent les mises à jour gratuites à vie</p>
+                <p class="pricing-note">🔒 Paiement sécurisé - Annulation à tout moment</p>
+                <p class="pricing-note">💳 Aucune carte bancaire requise pour l'essai gratuit</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Pricing -->
+    <section class="faq-pricing">
+        <div class="container">
+            <h2 class="section-title">Questions fréquentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>💳 Puis-je changer de formule à tout moment ?</h3>
+                    <p>Oui ! Vous pouvez upgrader ou downgrader votre abonnement à tout moment. Les changements prennent effet immédiatement.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>🔄 Comment fonctionne l'essai gratuit ?</h3>
+                    <p>L'essai Shield PRO de 14 jours est gratuit et sans engagement. Aucune carte bancaire n'est requise. Vous avez accès à toutes les fonctionnalités premium.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>💰 Y a-t-il des frais cachés ?</h3>
+                    <p>Non ! Le prix affiché est le prix final. Pas de frais cachés, pas de surprises. L'annulation est gratuite et immédiate.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>🖥️ Sur combien de PC puis-je utiliser FixMate ?</h3>
+                    <p>FREE & PRO : 1 PC | Shield PRO : jusqu'à 3 PC. Les licences peuvent être transférées entre ordinateurs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>🔐 Mes données sont-elles sécurisées ?</h3>
+                    <p>Oui ! FixMate ne collecte aucune donnée personnelle. Les backups Shield PRO sont chiffrés localement avec AES-256.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>📧 Quel support technique est inclus ?</h3>
+                    <p>FREE : Support communautaire | PRO : Support email prioritaire | Shield PRO : Chat en direct + support VIP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section id="download" class="download-cta">
+        <div class="container">
+            <h2>Prêt à optimiser votre PC ?</h2>
+            <p>Téléchargez FixMate gratuitement et découvrez toutes les fonctionnalités</p>
+            <a href="#" class="btn-large btn-primary">Télécharger FixMate Gratuit</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <span class="footer-icon">🛡️</span>
+                        <h4>FixMate</h4>
+                    </div>
+                    <p>Solution professionnelle de diagnostic et optimisation PC avec intelligence artificielle.</p>
+                    <p class="version">Version 2.0.0-beta.1</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="fonctions.html">Fonctions</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Légal</h4>
+                    <ul>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="cgv.html">CGV</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Développeur : VIEY David</p>
+                    <p>Email : <a href="mailto:Riisalthkraal@gmail.com">Riisalthkraal@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FixMate - Tous droits réservés - Développé par VIEY David</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Toggle billing period
+        document.getElementById('billing-toggle').addEventListener('change', function() {
+            const isYearly = this.checked;
+
+            // PRO prices
+            document.getElementById('pro-price-monthly').classList.toggle('hidden', isYearly);
+            document.getElementById('pro-price-yearly').classList.toggle('hidden', !isYearly);
+            document.getElementById('pro-period-monthly').classList.toggle('hidden', isYearly);
+            document.getElementById('pro-period-yearly').classList.toggle('hidden', !isYearly);
+
+            // Shield prices
+            document.getElementById('shield-price-monthly').classList.toggle('hidden', isYearly);
+            document.getElementById('shield-price-yearly').classList.toggle('hidden', !isYearly);
+            document.getElementById('shield-period-monthly').classList.toggle('hidden', isYearly);
+            document.getElementById('shield-period-yearly').classList.toggle('hidden', !isYearly);
+        });
+    </script>
+</body>
+</html>

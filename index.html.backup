@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FixMate - Solution professionnelle de diagnostic et optimisation PC avec intelligence artificielle">
+    <meta name="author" content="VIEY David">
+    <title>FixMate - Diagnostic PC Intelligent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="brand-logo">
+                    <span class="brand-icon">🛡️</span>
+                    <div>
+                        <h1>FixMate DiagPC</h1>
+                        <span class="tagline">Diagnostic PC Intelligent</span>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="fonctions.html">Fonctions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#download" class="btn-primary">Télécharger</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Diagnostic PC Intelligent avec IA</h2>
+                <p class="hero-subtitle">La solution professionnelle complète pour diagnostiquer, optimiser et protéger votre ordinateur</p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn-large btn-primary">Télécharger FixMate</a>
+                    <a href="fonctions.html" class="btn-large btn-secondary">Découvrir les fonctions</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Problèmes détectés</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Score 0-100</span>
+                        <span class="stat-label">Santé du système</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">IA Claude</span>
+                        <span class="stat-label">Analyse intelligente</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Overview -->
+    <section class="features-overview">
+        <div class="container">
+            <h2 class="section-title">Pourquoi choisir FixMate ?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Diagnostic Complet</h3>
+                    <p>Analyse approfondie de votre système : CPU, RAM, disques, processus et bien plus</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Analyse IA avec Claude d'Anthropic pour des recommandations personnalisées et précises</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Predictive Shield</h3>
+                    <p>Prédiction des pannes avant qu'elles n'arrivent grâce à l'analyse prédictive avancée</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>Shield Backup</h3>
+                    <p>Système de sauvegarde propriétaire avec chiffrement pour protéger vos données</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Digital Twin</h3>
+                    <p>Simulateur 3D de votre système pour visualiser et tester les modifications</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>One-Click Optimizer</h3>
+                    <p>Optimisation complète en un clic : mémoire, démarrage, fichiers temporaires</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison">
+        <div class="container">
+            <h2 class="section-title">FixMate vs Concurrence</h2>
+            <p class="section-subtitle">Découvrez ce qui rend FixMate unique sur le marché</p>
+
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Fonctionnalité</th>
+                            <th class="highlight">FixMate</th>
+                            <th>CCleaner</th>
+                            <th>Advanced SystemCare</th>
+                            <th>AVG TuneUp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Diagnostic système complet</td>
+                            <td class="highlight">✅</td>
+                            <td>⚠️ Limité</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Analyse IA avancée</td>
+                            <td class="highlight">✅ Claude AI</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                        </tr>
+                        <tr>
+                            <td>Prédiction des pannes</td>
+                            <td class="highlight">✅ Predictive Shield</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>⚠️ Basique</td>
+                        </tr>
+                        <tr>
+                            <td>Simulateur Digital Twin 3D</td>
+                            <td class="highlight">✅</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                        </tr>
+                        <tr>
+                            <td>Guides de réparation AR</td>
+                            <td class="highlight">✅</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                        </tr>
+                        <tr>
+                            <td>Backup chiffré propriétaire</td>
+                            <td class="highlight">✅ Shield Backup</td>
+                            <td>❌</td>
+                            <td>⚠️ Limité</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Score de santé 0-100</td>
+                            <td class="highlight">✅ Temps réel</td>
+                            <td>⚠️ Basique</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Mode Expert</td>
+                            <td class="highlight">✅ Contrôle total</td>
+                            <td>⚠️ Limité</td>
+                            <td>✅</td>
+                            <td>⚠️ Limité</td>
+                        </tr>
+                        <tr>
+                            <td>Optimisation en un clic</td>
+                            <td class="highlight">✅</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Interface moderne</td>
+                            <td class="highlight">✅ React + Electron</td>
+                            <td>⚠️ Datée</td>
+                            <td>⚠️ Chargée</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Open Source</td>
+                            <td class="highlight">✅</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>Prix</strong></td>
+                            <td class="highlight"><strong>Gratuit - Premium</strong></td>
+                            <td>Premium requis</td>
+                            <td>Freemium</td>
+                            <td>Payant</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="comparison-highlights">
+                <h3>Ce que FixMate fait de mieux :</h3>
+                <div class="highlights-grid">
+                    <div class="highlight-item">
+                        <h4>🧠 Intelligence Artificielle Intégrée</h4>
+                        <p>Seul logiciel du marché utilisant Claude AI d'Anthropic pour une analyse contextuelle et des recommandations adaptées à VOTRE système.</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h4>🔮 Prédiction Prédictive</h4>
+                        <p>Le Predictive Shield analyse les tendances et prévoit les pannes potentielles avant qu'elles ne surviennent, vous permettant d'agir en amont.</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h4>🎯 Digital Twin Innovant</h4>
+                        <p>Visualisez votre système en 3D et testez les modifications dans un environnement virtuel avant de les appliquer réellement.</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h4>📱 Guides AR Interactifs</h4>
+                        <p>Des guides de réparation en réalité augmentée pour vous accompagner pas à pas dans la résolution de problèmes matériels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots">
+        <div class="container">
+            <h2 class="section-title">Interface Moderne et Intuitive</h2>
+            <p class="section-subtitle">Développé avec React et Electron pour une expérience utilisateur fluide</p>
+            <div class="screenshots-grid">
+                <div class="screenshot-placeholder">
+                    <div class="placeholder-content">
+                        <p>📊 Dashboard Principal</p>
+                        <span>Score de santé en temps réel</span>
+                    </div>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="placeholder-content">
+                        <p>🤖 Analyse IA</p>
+                        <span>Recommandations personnalisées</span>
+                    </div>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="placeholder-content">
+                        <p>🎮 Digital Twin</p>
+                        <span>Simulation 3D du système</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">Télécharger FixMate</h2>
+            <p class="section-subtitle">Disponible pour Windows 10/11 - Support Linux et macOS à venir</p>
+            <div class="download-options">
+                <div class="download-card">
+                    <h3>Version Gratuite</h3>
+                    <ul class="download-features">
+                        <li>✅ Diagnostic système complet</li>
+                        <li>✅ Score de santé</li>
+                        <li>✅ Détection de problèmes</li>
+                        <li>✅ Analyse IA (mode démo)</li>
+                        <li>✅ File Cleaner</li>
+                    </ul>
+                    <button class="btn-large btn-primary">Télécharger Gratuit</button>
+                </div>
+                <div class="download-card premium">
+                    <div class="premium-badge">RECOMMANDÉ</div>
+                    <h3>Version Premium</h3>
+                    <ul class="download-features">
+                        <li>✅ Toutes les fonctions gratuites</li>
+                        <li>✅ Analyse IA complète illimitée</li>
+                        <li>✅ Predictive Shield</li>
+                        <li>✅ Shield Backup chiffré</li>
+                        <li>✅ Digital Twin 3D</li>
+                        <li>✅ Guides AR</li>
+                        <li>✅ Mode Expert avancé</li>
+                    </ul>
+                    <button class="btn-large btn-premium">Obtenir Premium</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <span class="footer-icon">🛡️</span>
+                        <h4>FixMate</h4>
+                    </div>
+                    <p>Solution professionnelle de diagnostic et optimisation PC avec intelligence artificielle.</p>
+                    <p class="version">Version 2.0.0-beta.1</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="fonctions.html">Fonctions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#download">Télécharger</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Légal</h4>
+                    <ul>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="cgv.html">CGV</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Développeur : VIEY David</p>
+                    <p>Email : <a href="mailto:Riisalthkraal@gmail.com">Riisalthkraal@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FixMate - Tous droits réservés - Développé par VIEY David</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
