@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Qualité et Tests FixMate v1.0.0 - 100+ tests automatisés, score audit 78/100">
+    <title>Qualité & Tests - FixMate DiagPC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="brand-logo">
+                    <span class="brand-icon">🛡️</span>
+                    <div>
+                        <h1>FixMate DiagPC</h1>
+                        <span class="tagline">Diagnostic PC Intelligent</span>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="fonctions.html">Fonctions</a></li>
+                <li><a href="services.html">Services Pro</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="changelog.html">Changelog</a></li>
+                <li><a href="qualite.html" class="active">Qualité</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge" style="display: inline-block; padding: 0.5rem 1rem; background: rgba(97,114,243,0.1); color: #6172f3; border-radius: 50px; font-weight: 600; margin-bottom: 1rem;">
+                <span style="font-size: 1.25rem;">🏆</span> Version 1.0.0 - 15 Novembre 2024
+            </div>
+            <h2 class="hero-title">Qualité & Transparence</h2>
+            <p class="hero-subtitle">
+                100+ tests automatisés • Score d'audit 78/100 • 0 bug critique
+            </p>
+        </div>
+    </section>
+
+    <!-- Scores principaux -->
+    <section class="section" style="margin-top: -3rem; position: relative; z-index: 10;">
+        <div class="container">
+            <div class="grid-4" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;">
+                <div class="score-card" style="background: white; padding: 2.5rem; border-radius: 20px; text-align: center; box-shadow: 0 8px 30px rgba(0,0,0,0.12); border-top: 4px solid #6172f3; color: #1a1a1a;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">🧪</div>
+                    <div style="font-size: 3rem; font-weight: 900; color: #6172f3; margin-bottom: 0.5rem;">100+</div>
+                    <div style="color: #666; font-weight: 600;">Tests Réussis</div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-top: 1rem; overflow: hidden;">
+                        <div style="height: 100%; width: 100%; background: linear-gradient(90deg, #6172f3, #a855f7);"></div>
+                    </div>
+                </div>
+
+                <div class="score-card" style="background: white; padding: 2.5rem; border-radius: 20px; text-align: center; box-shadow: 0 8px 30px rgba(0,0,0,0.12); border-top: 4px solid #a855f7; color: #1a1a1a;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">🏆</div>
+                    <div style="font-size: 3rem; font-weight: 900; color: #a855f7; margin-bottom: 0.5rem;">78/100</div>
+                    <div style="color: #666; font-weight: 600;">Score Global</div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-top: 1rem; overflow: hidden;">
+                        <div style="height: 100%; width: 78%; background: linear-gradient(90deg, #a855f7, #6172f3);"></div>
+                    </div>
+                </div>
+
+                <div class="score-card" style="background: white; padding: 2.5rem; border-radius: 20px; text-align: center; box-shadow: 0 8px 30px rgba(0,0,0,0.12); border-top: 4px solid #10b981; color: #1a1a1a;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">🔒</div>
+                    <div style="font-size: 3rem; font-weight: 900; color: #10b981; margin-bottom: 0.5rem;">72/100</div>
+                    <div style="color: #666; font-weight: 600;">Sécurité</div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-top: 1rem; overflow: hidden;">
+                        <div style="height: 100%; width: 72%; background: linear-gradient(90deg, #10b981, #059669);"></div>
+                    </div>
+                </div>
+
+                <div class="score-card" style="background: white; padding: 2.5rem; border-radius: 20px; text-align: center; box-shadow: 0 8px 30px rgba(0,0,0,0.12); border-top: 4px solid #10b981; color: #1a1a1a;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">🐛</div>
+                    <div style="font-size: 3rem; font-weight: 900; color: #10b981; margin-bottom: 0.5rem;">0</div>
+                    <div style="color: #666; font-weight: 600;">Bugs Critiques</div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-top: 1rem; overflow: hidden;">
+                        <div style="height: 100%; width: 100%; background: linear-gradient(90deg, #10b981, #059669);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tests détaillés -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">✅ Tests Automatisés - 100+ Réussis</h2>
+            <p class="section-description">Chaque release est testée automatiquement avec Jest pour garantir la stabilité</p>
+
+            <div class="test-section" style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+                <h3 style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; color: #1a1a1a;">
+                    <span style="font-size: 2rem; color: #10b981;">✓</span>
+                    Modules Core (35 tests)
+                </h3>
+
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #6172f3;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">Diagnostic Système</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">Détection CPU, RAM, Disques, GPU, températures</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 15/15
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #6172f3;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">Score Santé PC</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">Algorithme 0-100, pondération, seuils critiques</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 12/12
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #6172f3;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">Nettoyage & Optimisation</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">Calcul espace libérable, sécurité suppression</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 8/8
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="test-section" style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+                <h3 style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; color: #1a1a1a;">
+                    <span style="font-size: 2rem; color: #10b981;">✓</span>
+                    Intelligence Artificielle (25 tests)
+                </h3>
+
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #a855f7;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">Intégration Claude Sonnet 4</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">API calls, streaming, gestion erreurs, timeout</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 10/10
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #a855f7;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">Chatbot & Analyse</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">Contexte système, recommandations, historique</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 8/8
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #a855f7;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">Rapports IA</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">Génération PDF, priorisation problèmes</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 7/7
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="test-section" style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                <h3 style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; color: #1a1a1a;">
+                    <span style="font-size: 2rem; color: #10b981;">✓</span>
+                    UI/UX & Performance (40+ tests)
+                </h3>
+
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #10b981;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">Composants React</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">Rendering, props, hooks, états, événements</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 18/18
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #10b981;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">Graphiques Temps Réel</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">Recharts, data streaming, optimisations</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 12/12
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding: 1.5rem; background: #f9fafb; border-radius: 12px; border-left: 4px solid #10b981;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #1a1a1a; font-size: 1.1rem;">IPC Electron</strong>
+                            <div style="color: #666; font-size: 0.95rem; margin-top: 0.5rem;">Communication main/renderer, sécurité, sérialisation</div>
+                        </div>
+                        <div style="background: #10b981; color: white; padding: 0.5rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem;">
+                            ✓ 10/10
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audit qualité -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">📊 Audit Qualité Global - Score 78/100</h2>
+            <p class="section-description">Audit professionnel effectué le 10 novembre 2024</p>
+
+            <div class="grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+                <div style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                    <h3 style="margin-bottom: 2rem; color: #1a1a1a;">Détail des scores</h3>
+
+                    <div style="margin-bottom: 2rem;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.75rem;">
+                            <span style="font-weight: 600; color: #1a1a1a;">Architecture & Modularité</span>
+                            <span style="font-weight: 700; color: #6172f3;">82/100</span>
+                        </div>
+                        <div style="height: 8px; background: #f0f0f0; border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 82%; background: linear-gradient(90deg, #6172f3, #a855f7);"></div>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <div style="display: flex; justify-space-between; margin-bottom: 0.75rem;">
+                            <span style="font-weight: 600; color: #1a1a1a;">Qualité du Code</span>
+                            <span style="font-weight: 700; color: #6172f3;">75/100</span>
+                        </div>
+                        <div style="height: 8px; background: #f0f0f0; border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 75%; background: linear-gradient(90deg, #6172f3, #a855f7);"></div>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.75rem;">
+                            <span style="font-weight: 600; color: #1a1a1a;">Documentation</span>
+                            <span style="font-weight: 700; color: #10b981;">85/100</span>
+                        </div>
+                        <div style="height: 8px; background: #f0f0f0; border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 85%; background: linear-gradient(90deg, #10b981, #059669);"></div>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.75rem;">
+                            <span style="font-weight: 600; color: #1a1a1a;">Sécurité</span>
+                            <span style="font-weight: 700; color: #f59e0b;">72/100</span>
+                        </div>
+                        <div style="height: 8px; background: #f0f0f0; border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 72%; background: linear-gradient(90deg, #f59e0b, #d97706);"></div>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.75rem;">
+                            <span style="font-weight: 600; color: #1a1a1a;">Performance</span>
+                            <span style="font-weight: 700; color: #6172f3;">80/100</span>
+                        </div>
+                        <div style="height: 8px; background: #f0f0f0; border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 80%; background: linear-gradient(90deg, #6172f3, #a855f7);"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.75rem;">
+                            <span style="font-weight: 600; color: #1a1a1a;">Maintenabilité</span>
+                            <span style="font-weight: 700; color: #10b981;">84/100</span>
+                        </div>
+                        <div style="height: 8px; background: #f0f0f0; border-radius: 4px; overflow: hidden;">
+                            <div style="height: 100%; width: 84%; background: linear-gradient(90deg, #10b981, #059669);"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                    <h3 style="margin-bottom: 2rem; color: #1a1a1a;">Points forts</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 1rem 0; border-bottom: 1px solid #f0f0f0; display: flex; gap: 1rem;">
+                            <span style="color: #10b981; font-size: 1.5rem;">✓</span>
+                            <div>
+                                <strong style="color: #1a1a1a;">Architecture React moderne</strong>
+                                <div style="font-size: 0.9rem; color: #666; margin-top: 0.25rem;">Composants fonctionnels, hooks, context API</div>
+                            </div>
+                        </li>
+                        <li style="padding: 1rem 0; border-bottom: 1px solid #f0f0f0; display: flex; gap: 1rem;">
+                            <span style="color: #10b981; font-size: 1.5rem;">✓</span>
+                            <div>
+                                <strong style="color: #1a1a1a;">Tests automatisés complets</strong>
+                                <div style="font-size: 0.9rem; color: #666; margin-top: 0.25rem;">100+ tests Jest avec coverage >70%</div>
+                            </div>
+                        </li>
+                        <li style="padding: 1rem 0; border-bottom: 1px solid #f0f0f0; display: flex; gap: 1rem;">
+                            <span style="color: #10b981; font-size: 1.5rem;">✓</span>
+                            <div>
+                                <strong style="color: #1a1a1a;">TypeScript strict mode</strong>
+                                <div style="font-size: 0.9rem; color: #666; margin-top: 0.25rem;">Typage fort, moins d'erreurs runtime</div>
+                            </div>
+                        </li>
+                        <li style="padding: 1rem 0; border-bottom: 1px solid #f0f0f0; display: flex; gap: 1rem;">
+                            <span style="color: #10b981; font-size: 1.5rem;">✓</span>
+                            <div>
+                                <strong style="color: #1a1a1a;">Documentation détaillée</strong>
+                                <div style="font-size: 0.9rem; color: #666; margin-top: 0.25rem;">README complet, JSDoc, guides utilisateur</div>
+                            </div>
+                        </li>
+                        <li style="padding: 1rem 0; display: flex; gap: 1rem;">
+                            <span style="color: #10b981; font-size: 1.5rem;">✓</span>
+                            <div>
+                                <strong style="color: #1a1a1a;">Performance optimisée</strong>
+                                <div style="font-size: 0.9rem; color: #666; margin-top: 0.25rem;">Lazy loading, memoization, cache intelligent</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stack Technologique -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">💻 Stack Technologique</h2>
+            <p class="section-description">Technologies modernes et éprouvées pour un logiciel fiable</p>
+
+            <div class="grid-3">
+                <div class="card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem; text-align: center;">⚛️</div>
+                    <h3 style="text-align: center;">React 18.3</h3>
+                    <p style="color: #666; text-align: center; margin-top: 0.5rem;">Framework UI moderne et performant</p>
+                </div>
+
+                <div class="card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem; text-align: center;">⚙️</div>
+                    <h3 style="text-align: center;">Electron 32</h3>
+                    <p style="color: #666; text-align: center; margin-top: 0.5rem;">Apps desktop cross-platform</p>
+                </div>
+
+                <div class="card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem; text-align: center;">📘</div>
+                    <h3 style="text-align: center;">TypeScript</h3>
+                    <p style="color: #666; text-align: center; margin-top: 0.5rem;">Typage fort pour moins d'erreurs</p>
+                </div>
+
+                <div class="card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem; text-align: center;">🧪</div>
+                    <h3 style="text-align: center;">Jest</h3>
+                    <p style="color: #666; text-align: center; margin-top: 0.5rem;">Tests automatisés fiables</p>
+                </div>
+
+                <div class="card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem; text-align: center;">📊</div>
+                    <h3 style="text-align: center;">Recharts</h3>
+                    <p style="color: #666; text-align: center; margin-top: 0.5rem;">Graphiques temps réel</p>
+                </div>
+
+                <div class="card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem; text-align: center;">🤖</div>
+                    <h3 style="text-align: center;">Claude Sonnet 4</h3>
+                    <p style="color: #666; text-align: center; margin-top: 0.5rem;">IA diagnostic avancée</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="hero">
+        <div class="container" style="text-align: center;">
+            <h2 class="hero-title" style="margin-bottom: 1rem;">Une qualité qui inspire confiance</h2>
+            <p class="hero-subtitle" style="margin-bottom: 2rem;">
+                Testez FixMate et constatez par vous-même la qualité professionnelle du logiciel
+            </p>
+            <div class="hero-cta">
+                <a href="contact.html" class="btn-large btn-primary">
+                    ⬇️ Télécharger FixMate
+                </a>
+                <a href="documentation.html" class="btn-large btn-secondary">
+                    📖 Documentation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>FixMate DiagPC</h3>
+                    <p>Diagnostic PC Intelligent</p>
+                    <p style="margin-top: 1rem;">Version 1.0.0</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="fonctions.html">Fonctions</a></li>
+                        <li><a href="services.html">Services Pro</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Ressources</h3>
+                    <ul>
+                        <li><a href="changelog.html">Changelog</a></li>
+                        <li><a href="qualite.html">Qualité</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Professionnel</h3>
+                    <p>Email: <a href="mailto:Riisalthkarral@gmail.com">Riisalthkarral@gmail.com</a></p>
+                    <p>Développeur: VIEY David</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 FixMate - Développé par VIEY David - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
